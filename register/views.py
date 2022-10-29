@@ -11,7 +11,7 @@ from register.forms import UserRegisterForm, LoginForm, PasswordChangingForm
 
 
 class RegisterView(SuccessMessageMixin, CreateView):
-    template_name = ''
+    template_name = 'register/register.html'
     success_url = reverse_lazy("login")
     form_class = UserRegisterForm
     success_message = "Your profile was created successfully"

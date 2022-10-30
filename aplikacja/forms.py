@@ -1,8 +1,9 @@
 from django import forms
 
+from aplikacja.models import Image
+
 
 class ImageForm(forms.ModelForm):
-    date = forms.DateField()
-    image = forms.ImageField()
-    comment = forms.CharField(label='Your comment', max_length=16)
-    
+    class Meta:
+        model = Image
+        fields = ['image_name', 'image', 'comment']

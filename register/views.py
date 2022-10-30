@@ -7,7 +7,9 @@ from django.urls import reverse_lazy
 from django.views.generic import View, CreateView
 from django.contrib import messages
 
+
 from register.forms import UserRegisterForm, LoginForm, PasswordChangingForm
+from register.models import Users
 
 
 class RegisterView(SuccessMessageMixin, CreateView):
@@ -18,13 +20,14 @@ class RegisterView(SuccessMessageMixin, CreateView):
 
 
 class LoginView(View):
-    template_name = ''
+    template_name = 'register/login.html'
     form_class = LoginForm
+    client = Users
 
     def get(self, request):
 
         if self.request.user.is_authenticated:
-            return redirect("dashboard")
+            return redirect(f"{self.client.user_id}")
         form = self.form_class()
         message = ""
         return render(
@@ -49,7 +52,8 @@ class LoginView(View):
 
 class ResetPasswordView(View):
     template_name = ""
-    success_url = reverse_lazy("dashboard")
+    client = Users
+    success_url = reverse_lazy(f"{client.user_id}")
     form_class = PasswordChangingForm
 
     def get(self, request):
@@ -65,7 +69,7 @@ class ResetPasswordView(View):
             user = form.save()
             update_session_auth_hash(request, user)
             messages.success(request, "Your password was successfully updated!")
-            return redirect("dashboard")
+            return redirect(f"{self.client.user_id}")
         else:
             messages.error(request, "Please correct the error below.")
         form = PasswordChangeForm(request.user)

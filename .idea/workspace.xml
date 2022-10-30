@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fd26e7e-7544-4cc1-ae28-1b38bc1b4418" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplikacja/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacja/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667032526167</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding readme">
+      <created>1667121412268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667121412268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,5 +77,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding readme" />
   </component>
 </project>

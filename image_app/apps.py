@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AplikacjaConfig(AppConfig):
+class ImageAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'aplikacja'
+    name = 'image_app'

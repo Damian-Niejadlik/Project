@@ -2731,7 +2731,7 @@ camera:
   label: camera
   search:
     terms:
-      - image
+      - image_app
       - lens
       - photo
       - picture
@@ -2750,7 +2750,7 @@ camera-retro:
   label: Retro Camera
   search:
     terms:
-      - image
+      - image_app
       - lens
       - photo
       - picture
@@ -4800,7 +4800,7 @@ copyright:
     terms:
       - brand
       - mark
-      - register
+      - user_app
       - trademark
   styles:
     - solid
@@ -7173,7 +7173,7 @@ file-image:
   search:
     terms:
       - document
-      - image
+      - image_app
       - jpg
       - photo
       - png
@@ -10559,7 +10559,7 @@ icons:
       - bolt
       - emoji
       - heart
-      - image
+      - image_app
       - music
       - photo
       - symbols
@@ -14269,7 +14269,7 @@ photo-video:
     terms:
       - av
       - film
-      - image
+      - image_app
       - library
       - media
   styles:
@@ -14737,7 +14737,7 @@ portrait:
   search:
     terms:
       - id
-      - image
+      - image_app
       - photo
       - picture
       - selfie
@@ -16045,7 +16045,7 @@ sd-card:
   label: Sd Card
   search:
     terms:
-      - image
+      - image_app
       - memory
       - photo
       - save
@@ -19357,7 +19357,7 @@ trademark:
   search:
     terms:
       - copyright
-      - register
+      - user_app
       - symbol
   styles:
     - solid

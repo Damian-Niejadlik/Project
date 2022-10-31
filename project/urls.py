@@ -16,11 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from register.views import BaseView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('image/', include("aplikacja.urls")),
-    path('user/', include("register.urls")),
-    path('', BaseView.as_view()),
+    path('image/', include("image_app.urls")),
+    path('user/', include("user_app.urls")),
 ]

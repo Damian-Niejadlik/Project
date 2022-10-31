@@ -208,7 +208,7 @@ pencil-square-o:
   name: edit
   prefix: far
 picture:
-  name: image
+  name: image_app
 pie-chart:
   name: chart-pie
 refresh:

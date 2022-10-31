@@ -867,7 +867,7 @@ files:
     - file-audio
     - file-code
     - file-excel
-    - file-image
+    - file-image_app
     - file-pdf
     - file-powerpoint
     - file-video
@@ -885,7 +885,7 @@ finance:
     - balance-scale-left
     - balance-scale-right
     - book
-    - cash-register
+    - cash-user_app
     - chart-line
     - chart-pie
     - coins
@@ -1181,11 +1181,11 @@ images:
     - eye
     - eye-dropper
     - eye-slash
-    - file-image
+    - file-image_app
     - film
     - id-badge
     - id-card
-    - image
+    - image_app
     - images
     - photo-video
     - portrait
@@ -1423,7 +1423,7 @@ maps:
     - helicopter
     - home
     - hospital
-    - image
+    - image_app
     - images
     - industry
     - info
@@ -1782,7 +1782,7 @@ objects:
     - hospital
     - hourglass
     - igloo
-    - image
+    - image_app
     - images
     - industry
     - key
@@ -2133,7 +2133,7 @@ shopping:
     - barcode
     - cart-arrow-down
     - cart-plus
-    - cash-register
+    - cash-user_app
     - gift
     - gifts
     - person-booth
@@ -2160,7 +2160,7 @@ social:
     - hashtag
     - heart
     - icons
-    - image
+    - image_app
     - images
     - map-marker
     - map-marker-alt
